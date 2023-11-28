@@ -1,0 +1,43 @@
+body{
+    background-color: darkgray;
+    text-align: center;
+}
+.main{
+    display: inline-block;
+    height: 600px;
+    width: 400px;
+    border: 3px solid black;
+}
+.recipe{
+    display: flexbox;
+    border: 3px solid black;
+}
+.recipe h1{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.recipe h3{
+    text-align: left;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+.recipe h1 a button{
+    text-align: left;
+}
+.recipe img{
+    border: 2px solid black;
+}
+.recipe p{
+    text-align: left;
+    padding-bottom: 4px;
+}
+.recipe ol, ul, li{
+    text-align: left;
+    display: flexbox; 
+}
+.main ul, li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
